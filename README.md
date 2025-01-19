@@ -23,7 +23,7 @@ Join our Discord test server by clicking this link: [https://discord.gg/CQTaBVRp
 Once you’re on the server, you can collaborate with other contributors and test your bot.
 
 ---
-
+(You can also keep your bot in local and dont host it online)
 ## **Step 2: Create and Host Your Bot**
 
 ### **A) Create Your Bot on the Discord Developer Portal**  
