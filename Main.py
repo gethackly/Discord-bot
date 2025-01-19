@@ -1,15 +1,9 @@
 import discord
-import os
 from discord.ext import commands
 from discord import app_commands
 
-# Load environment variable directly
-TOKEN = os.getenv('DISCORD_BOT_TOKEN')
-
-# Debugging
-if not TOKEN:
-    print("Error: Token is missing. Ensure the DISCORD_BOT_TOKEN variable is set in your system environment variables.")
-    exit(1)  # Exit if token is missing
+# Hardcoded bot token (use with caution)
+TOKEN = "YOUR_TOKEN_HERE"
 
 # Create a bot instance
 intents = discord.Intents.default()
@@ -33,4 +27,4 @@ async def goodnight(interaction: discord.Interaction):
     await interaction.response.send_message("GOOD NIGHT! HAVE LOTS OF SWEET DREAMS AND SLEEP TIGHT! BEEP BOOP!")
 
 # Run the bot
-bot.run(TOKEN)
+bot.run(TOKEN) 
