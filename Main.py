@@ -31,13 +31,13 @@ async def goodnight(interaction: discord.Interaction):
 async def time(interaction: discord.Interaction):
     await interaction.response.send_message(str(datetime.datetime.now()))
 
-@bot.tree.command(name="taskAdd", description="Add a task to complete")
+@bot.tree.command(name="taskadd", description="Add a task to complete")
 @app_commands.describe(key="The unique identifier for the task", task="The task description")
 async def task_add(interaction: discord.Interaction, key: str, task: str):
     tasks[key] = task
     await interaction.response.send_message(f"Task added under key '{key}': {task}")
 
-@bot.tree.command(name="taskGet", description="Get a task by its key")
+@bot.tree.command(name="taskget", description="Get a task by its key")
 @app_commands.describe(key="The unique identifier for the task")
 async def task_get(interaction: discord.Interaction, key: str):
     task = tasks.get(key)
