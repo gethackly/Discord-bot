@@ -1,4 +1,5 @@
 import discord
+import datetime
 from discord.ext import commands
 from discord import app_commands
 
@@ -25,6 +26,11 @@ async def hello(interaction: discord.Interaction):
 @bot.tree.command(name="goodnight", description="Have sweet dreams!")
 async def goodnight(interaction: discord.Interaction):
     await interaction.response.send_message("GOOD NIGHT! HAVE LOTS OF SWEET DREAMS AND SLEEP TIGHT! BEEP BOOP!")
+
+@bot.tree.command(name="time", description="shows time")
+async def time(interaction: discord.Interaction):
+    await interaction.response.send_message(str(datetime.datetime.now()))
+
 
 # Run the bot
 bot.run(TOKEN) 
