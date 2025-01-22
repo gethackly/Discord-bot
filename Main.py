@@ -19,4 +19,12 @@ async def on_ready():
     except Exception as e:
         print(f"Error syncing commands: {e}")
 
+@bot.tree.command(name="hello", description="Replies with Hello, World!")
+async def hello(interaction: discord.Interaction):
+    await interaction.response.send_message("Hello, World!")
+
+@bot.tree.command(name="goodnight", description="Have sweet dreams!")
+async def goodnight(interaction: discord.Interaction):
+    await interaction.response.send_message("GOOD NIGHT! HAVE LOTS OF SWEET DREAMS AND SLEEP TIGHT! BEEP BOOP!")
+
 bot.run(TOKEN)
