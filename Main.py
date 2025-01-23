@@ -1,9 +1,10 @@
 import discord
 from discord.ext import commands
 from commands import tasks
+import os
 
 # Hardcoded bot token (use with caution)
-TOKEN = "YOUR_TOKEN_HERE"
+TOKEN = os.environ["HACKLY_BOT_TOKEN"]
 
 # Create a bot instance
 intents = discord.Intents.default()
