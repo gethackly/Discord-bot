@@ -3,7 +3,7 @@ from discord.ext import commands
 from types import FunctionType
 from inspect import isasyncgenfunction
 # Hardcoded bot token (use with caution)
-TOKEN = "MTMzMTMyOTkxMjEyMDAyMTA4Mw.G6qKvC.HazoduILn4bAHcSrRfSUIZeHbdvhZLj03zmiNE"
+TOKEN = open("Token.txt", "r").read()
 # Create a bot instance
 intents = discord.Intents.default()
 bot = commands.Bot(command_prefix="!", intents=intents)
