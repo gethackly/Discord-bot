@@ -3,7 +3,7 @@ from discord.ext import commands
 from types import FunctionType
 from inspect import isasyncgenfunction
 # Hardcoded bot token (use with caution)
-Some_Random_Name = open("Token.txt", "r").read()
+TOKEN = open("Token.txt", "r").read()
 # Create a bot instance
 intents = discord.Intents.default()
 bot = commands.Bot(command_prefix="!", intents=intents)
@@ -29,4 +29,4 @@ async def on_ready():
     except Exception as e:
         print(f"Error syncing commands: {e}")
 def run_bot():
-    bot.run(Some_Random_Name)
+    bot.run(TOKEN)
