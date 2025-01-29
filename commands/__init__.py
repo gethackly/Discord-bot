@@ -1,2 +1,3 @@
-__all__ = ["tasks"]
+__all__ = ["tasks", "create_channel"]
 from . import tasks
+from . import create_channel
