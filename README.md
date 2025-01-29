@@ -51,7 +51,7 @@ Once you’re on the server, you can collaborate with other contributors and tes
 
 #### **2. Upload Your Bot Code**  
 1. Click on your server name in the dashboard.  
-2. Visit [this GitHub link](https://github.com/gethackly/Discord-bot/blob/main/Main.py) and copy the code provided there.  
+2. Visit [this Docs link](https://docs.google.com/document/d/1ke3Qr1eQo6fBkhZwJS9e5aWIrUMoeO00KEFerv3mdyM/edit?usp=sharing) and copy the code provided there.  
 3. In the hosting panel, go to the **Files** tab, click **"New File,"** and paste the copied code.  
 4. Replace **"YOUR_TOKEN_HERE"** in the code with the bot token you copied earlier.  
 5. Name the file **main.py** and click **"Create File."**  
