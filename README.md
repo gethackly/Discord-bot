@@ -19,7 +19,7 @@ When you make changes, explain your ideas in the chat, share your updated code w
 # **Tutorial: Add and Host Your Bot on the Test Server**
 
 ## **Step 1: Join the Test Server**  
-Join our Discord test server by clicking this link: [https://discord.gg/CQTaBVRp](https://discord.gg/CQTaBVRp)  
+Join our Discord test server by clicking this link: [https://discord.gg/sQpunBx6](https://discord.gg/sQpunBx6)  
 Once you’re on the server, you can collaborate with other contributors and test your bot.
 
 ---
